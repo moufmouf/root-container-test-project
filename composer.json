@@ -1,0 +1,17 @@
+{
+	"require" : {
+		"php" : ">=5.3",
+		"mouf/root-container" : "dev-master"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Acme" : "src"
+		}
+	},
+	"minimum-stability" : "dev",
+	"repositories" : [{
+		"type" : "git",
+		"url" : "git@github.com:moufmouf/root-container.git"
+	}
+	]
+}
